@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100hv;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 20px;
+    height: 960px;
+    width: 960px;
+    border: 5px solid black;
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+
+.columnCell,
+.rowCell {
+    border: 1px solid black;
+    display: flex;
+    flex: 1;
+}
